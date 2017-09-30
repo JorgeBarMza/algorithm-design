@@ -1,0 +1,3 @@
+/Users/jb/Documents/school/universidad/3/algoritmos/algorithm-design/4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jb/Documents/school/universidad/3/algoritmos/algorithm-design/4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jb/Documents/school/universidad/3/algoritmos/algorithm-design/4/cmake-build-debug/CMakeFiles/4.dir
