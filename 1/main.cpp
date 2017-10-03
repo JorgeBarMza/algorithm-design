@@ -19,9 +19,13 @@ vector<int> paradas(int totalDist, int n, vector<int> gas){
 }
 
 int main() {
-    vector<int> d = {1};
+    vector<int> d = {3,4,5,6,9};
     try{
-        vector<int> a = paradas(3, 3, d);
+        vector<int> a = paradas(9, 3, d);
+        cout << "Paradas: ";
+        for(auto p:a){
+            cout << p << " ";
+        }
     }
     catch(invalid_argument &e){
         cout << e.what();

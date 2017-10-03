@@ -45,23 +45,25 @@ vector<int>  stableCouples(){
     return engaged;
 }
 
-
-
 int main() {
     
     for (int i = 0; i<n; i++) {
         for (int j = 0; j<n; j++) {
-            cin >> men[i][j];
+//            cin >> men[i][j];
+            men[i][j] = j;
         }
     }
     for (int i = 0; i<n; i++) {
         for (int j = 0; j<n; j++) {
-            cin >> women[i][j];
+//            cin >> women[i][j];
+            women[i][j] = j;
         }
     }
     
     vector<int> res = stableCouples();
-    
+    for(int i=0; i<res.size(); ++i){
+        cout << "Woman #" << i << " is married to Husband #" << res[i] << "\n";
+    }
 }
 
 

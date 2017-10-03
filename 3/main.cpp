@@ -65,9 +65,9 @@ string bottomUpLCS(string w1, string w2){
     return res;
 }
 int main() {
-    time_t t1 = clock();
+//    time_t t1 = clock();
 //    memo.assign(100,vector<string>(100,"-1"));
-    cout << bottomUpLCS("ddddddddddddddddddddddb", "bcccccccccccccccccccccccc");
+    cout << "LCS: " << bottomUpLCS("hola", "hello");
     cout << "\n";
-    cout << clock() - t1;
+//    cout << clock() - t1;
 }
